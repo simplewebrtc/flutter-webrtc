@@ -2,7 +2,7 @@ import 'dart:core';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
-import 'package:flutter_webrtc/webrtc.dart';
+import 'package:simplewebrtc_flutter_webrtc_shim/webrtc.dart';
 
 import 'src/loopback_sample.dart';
 import 'src/get_user_media_sample.dart'

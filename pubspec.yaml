@@ -1,7 +1,7 @@
-name: flutter_webrtc
-description: Flutter WebRTC plugin for iOS/Android/Destkop/Web.
-version: 0.2.6
-homepage: https://github.com/cloudwebrtc/flutter-webrtc
+name: simplewebrtc_flutter_webrtc_shim
+description: Flutter WebRTC plugin for iOS/Android.
+version: 0.2.7
+homepage: https://simplewebrtc.com
 
 dependencies:
   flutter:
@@ -11,11 +11,9 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.cloudwebrtc.webrtc
+        package: com.simplewebrtc.webrtc
         pluginClass: FlutterWebRTCPlugin
       ios:
-        pluginClass: FlutterWebRTCPlugin
-      macos:
         pluginClass: FlutterWebRTCPlugin
 
 environment:
